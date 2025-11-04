@@ -1,0 +1,92 @@
+tap "buo/cask-upgrade"
+tap "ybeapps/sourcegit"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Dependency Manager for PHP
+brew "composer"
+# Modern, maintained replacement for ls
+brew "eza"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# Open-source distributed event streaming platform
+brew "kafka"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
+# Generic syntax highlighter
+brew "pygments"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Software environment for statistical computing
+brew "r"
+# Safe, concurrent, practical language
+brew "rust"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
+# Internet file retriever
+brew "wget"
+# Cross platform SQL editor and database management app
+cask "beekeeper-studio"
+# Utilities designed to make common development tasks easier
+cask "devtoys"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Cross-platform Git credential storage for multiple hosting providers
+cask "git-credential-manager"
+# Go (golang) IDE
+cask "goland"
+# Java IDE by JetBrains
+cask "intellij-idea"
+# Full TeX Live distribution with GUI applications
+cask "mactex"
+# OpenVPN client
+cask "pritunl"
+# Open-source Git GUI client
+cask "sourcegit"
+# Mesh VPN based on WireGuard
+cask "tailscale-app"
+# SSH client
+cask "termius"
+# Open-source code editor
+cask "visual-studio-code"
+vscode "docker.docker"
+vscode "eriklynd.json-tools"
+vscode "fabiospampinato.vscode-diff"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "golang.go"
+vscode "james-yu.latex-workshop"
+vscode "janisdd.vscode-edit-csv"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "pkief.material-icon-theme"
+vscode "tamasfe.even-better-toml"
+vscode "tonybaloney.vscode-pets"
+vscode "vscjava.migrate-java-to-azure"
+vscode "vscjava.vscode-java-upgrade"
+vscode "yzhang.markdown-all-in-one"
+vscode "zhuangtongfa.material-theme"
+go "github.com/go-delve/delve/cmd/dlv"
+go "github.com/haya14busa/goplay/cmd/goplay"
+go "golang.org/x/tools/gopls"
+go "github.com/cweill/gotests/gotests"
+go "github.com/josharian/impl"
+go "honnef.co/go/tools/cmd/staticcheck"
