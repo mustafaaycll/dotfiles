@@ -19,6 +19,9 @@ zinit snippet OMZP::command-not-found
 autoload -U compinit && compinit
 zinit cdreplay -q
 
+# --- Homebrew ---
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # --- FZF ---
 eval "$(fzf --zsh)"
 
