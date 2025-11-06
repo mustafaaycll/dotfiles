@@ -11,6 +11,10 @@ alias home="cd $HOME"
 alias docs="cd $HOME/Documents"
 alias dows="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
+alias apps="cd $HOME/Applications"
+
+# macOS Specific
+alias rmqr="sudo xattr -r -d com.apple.quarantine"
 
 # Better Listing
     # Core replacement
