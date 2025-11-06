@@ -1,4 +1,21 @@
+format = """\
+$username\
+$hostname\
+$all\
+$character"""
+
+add_newline=true
 continuation_prompt = "[.](bright-black) "
+
+[username]
+format = "[$user](bold blue) "
+show_always = true
+
+[hostname]
+disabled = true
+format = "at [$hostname](bold green) "
+ssh_only = false
+ssh_symbol = "ssh "
 
 [character]
 success_symbol = "[>](bold green)"
@@ -72,7 +89,11 @@ format = "via [$symbol($version )(target $tfm )]($style)"
 symbol = ".NET "
 
 [directory]
+format = "in [$path]($style)[$read_only]($read_only_style) "
 read_only = " ro"
+home_symbol = "~"
+fish_style_pwd_dir_length = 2
+
 
 [docker_context]
 symbol = "docker "
@@ -127,9 +148,6 @@ symbol = "helm "
 [hg_branch]
 symbol = "hg "
 truncation_symbol = "..."
-
-[hostname]
-ssh_symbol = "ssh "
 
 [java]
 symbol = "java "
