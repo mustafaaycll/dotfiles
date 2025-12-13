@@ -12,6 +12,8 @@ alias docs="cd $HOME/Documents"
 alias dows="cd $HOME/Downloads"
 alias desk="cd $HOME/Desktop"
 alias apps="cd $HOME/Applications"
+alias work="cd $HOME/Work"
+alias proj="cd $HOME/Projects"
 
 # macOS Specific
 alias rmqr="sudo xattr -r -d com.apple.quarantine"
